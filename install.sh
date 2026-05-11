@@ -1,9 +1,9 @@
 #!/bin/sh
 
 # Source directories
-DIR1=~/fastfetch
-DIR2=~/kitty
-DIR3=~/mouse-cursors
+DIR1=~/All-in-one-rice/fastfetch
+DIR2=~/All-in-one-rice/kitty
+DIR3=~/All-in-one-rice/mouse-cursors
 
 # Destination directories
 DEST1=~/.config
