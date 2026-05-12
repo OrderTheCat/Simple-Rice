@@ -24,4 +24,8 @@ mv "$DIR4" "$DEST4"
 mv "$DIR5" "$DEST5"
 mv "$DIR6" "$DEST6"
 
+
+# Set wallpaper
+gsettings set org.gnome.desktop.background picture-uri "file:///home/$(whoami)/All-in-one-rice/wallpapers/cabin-3.png"   
+
 echo "Setup done!"
