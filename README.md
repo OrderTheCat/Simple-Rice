@@ -21,6 +21,12 @@ Third, run the **install.sh** script:
 bash install.sh
 ```
 
+**or**
+
+```bash
+sh install.sh
+```
+
 The script will not override any existing configuration files, so make sure to delete the folders listed below:
 
 ```text
