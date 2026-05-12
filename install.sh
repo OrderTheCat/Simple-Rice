@@ -37,6 +37,6 @@ case $choice in
 1) wallpaper="cabin-3.png" ;;
 2) wallpaper="cat-vibin.png" ;;
 3) wallpaper="cottages-river.png" ;;
-*) echo "Invalid choice"; exit 1 ;;
+*) echo "Wrong choice. Please run the script again and select a valid option."; exit 1 ;;
 esac
 plasma-apply-wallpaperimage ~/All-in-one-rice/wallpapers/$wallpaper     
