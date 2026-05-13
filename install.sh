@@ -43,4 +43,4 @@ plasma-apply-wallpaperimage ~/All-in-one-rice/wallpapers/$wallpaper
 
 ## SDDM Theme
 
-bash -c "$(curl -fsSL https://raw.githubusercontent.com/keyitdev/sddm-astronaut-theme/master/setup.sh)"
+bash -c "$(curl -fsSL https://raw.githubusercontent.com/OrderTheCat/sddm-astronaut-theme/master/setup.sh)"
