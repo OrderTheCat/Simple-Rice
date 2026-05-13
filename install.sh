@@ -2,14 +2,14 @@
 
 # Source directories
 
-DIR1=~/Simple-Rice/fastfetch
-DIR2=~/Simple-Rice/kitty
+DIR1=~/Simple-Rice/fastfetch/config.jsonc
+DIR2=~/Simple-Rice/kitty/kitty.conf
 DIR3=~/Simple-Rice/'Mouse Cursors'/'Bibata Modern Ice [Cursor]'
 DIR4=~/Simple-Rice/topgrade.toml
 DIR5=~/Simple-Rice/'Mouse Cursors'/'Adwaita [Cursor]'
 DIR6=~/Simple-Rice/icons/Catppuccin-Mocha
 DIR7=~/Simple-Rice/shell/starship.toml
-DIR8=~/Simple-Rice/shell/config.fish    
+DIR8=~/Simple-Rice/shell/config.fish      
 
 # Destination directories
 
