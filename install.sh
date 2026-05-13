@@ -4,8 +4,8 @@
 
 DIR1=~/Simple-Rice/fastfetch/config.jsonc
 DIR2=~/Simple-Rice/kitty/kitty.conf
-DIR3=~/Simple-Rice/mouse-cursors/'Bibata Modern Ice [Cursor]'
-DIR4=~/Simple-Rice/mouse-cursors/'Adwaita [Cursor]'
+DIR3=~/Simple-Rice/mouse-cursors/Bibata-Modern-Ice
+DIR4=~/Simple-Rice/mouse-cursors/Adwaita
 DIR5=~/Simple-Rice/icons/Catppuccin-Mocha
 DIR6=~/Simple-Rice/shell/starship.toml  
 DIR7=~/Simple-Rice/shell/config.fish      
