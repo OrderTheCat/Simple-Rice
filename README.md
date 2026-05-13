@@ -45,6 +45,32 @@ rm -rf ~/.config/fastfetch/.config.jsonc && rm -rf ~/.config/kitty/kitty.conf
 
 **Source**: https://github.com/orangci/walls-catppuccin-mocha/tree/master
 
-***cabin-3.png***
+***cabin-3***
 
-![Alt text](wallpapers/cabin-3.png)   
+![Alt text](wallpapers/cabin-3.png)  
+
+
+***cabin-4***
+
+![Alt text](wallpapers/cabin-4.png) 
+
+
+***cabin***
+
+![Alt text](wallpapers/cabin.png) 
+
+
+***call-it-a-day***
+
+![Alt text](wallpapers/call-it-a-day.jpg)
+
+
+***cat-vibin***
+
+![Alt text](wallpapers/cat-vibin.png)
+
+
+***cottages-river***
+
+![Alt text](wallpapers/cottages-river.png) 
+
