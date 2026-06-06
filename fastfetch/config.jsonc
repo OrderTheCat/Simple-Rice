@@ -1,84 +1,113 @@
 {
-  "$schema": "https://github.com/fastfetch-cli/fastfetch/raw/dev/doc/json_schema.json",
-  "logo": {
-    "source": "~/Simple-Rice/fastfetch/asciiart.txt",
-    "color": {
-      "1": "#C6B7FF",
+    "$schema": "https://github.com/fastfetch-cli/fastfetch/raw/dev/doc/json_schema.json",
+    "logo": {
+    	"source": "~/.config/fastfetch/nyarch.png",
+    	"type": "kitty",
+      	"height": 20,
+      	"padding": {
+    		"top": 1
+      	}
     },
-    "padding": {
-      "top": 2,
-      "right": 6,
+    "display": {
+          "separator": " ➜  "
     },
-  },
-  "display": {
-    "separator": " ",
-  },
-  "modules": [
-    "break",
-    "break",
-    {
-      "type": "title",
-      "keyWidth": 10,
-      "color": "#D8CCFF",
-    },
-    "break",
-    {
-      "type": "os",
-      "key": " ",
-      "keyColor": "#B8A6FF",
-      "color": "#E6E0FF",
-      "format": "Fedora",
-    },
-    {
-      "type": "host",
-      "key": "🖥 ",
-      "keyColor": "#B8A6FF",
-      "color": "#E6E0FF",
-      "format": "Asus Machine",
-    },
-    {
-      "type": "shell",
-      "format": "{}",
-      "key": ">_",
-      "keyColor": "#B8A6FF",
-      "color": "#E6E0FF",
-    },
-    {
-      "type": "terminal",
-      "key": " ",
-      "keyColor": "#B8A6FF",
-      "color": "#E6E0FF",
-    },
-    {
-      "type": "wm",
-      "format": "{} (wayland)",
-      "key": " ",
-      "keyColor": "#B8A6FF",
-      "color": "#E6E0FF",
-    },
-    {
-      "type": "cpu",
-      "key": "󰍛 ",
-      "keyColor": "#B8A6FF",
-      "color": "#E6E0FF",
-      "format": "intel(R) i5-10400",
-    },
-    {
-      "type": "gpu",
-      "key": "󰢮 ",
-      "keyColor": "#B8A6FF",
-      "color": "#E6E0FF",
-      "format": "GTX-1660",
-    },
-    {
-      "type": "memory",
-      "key": "🎟 ",
-      "keyColor": "#B8A6FF",
-      "color": "#E6E0FF",
-      "format": "{} {}",
-    },
-    "break",
-    "break",
-    "break",
-  ],
+    "modules": [
+        "break",
+        "break",
+        "break",
+         {
+            "type": "os",
+            "key": "OS   ",
+            "keyColor": "31",  // = color1
+        },
+        {
+            "type": "kernel",
+            "key": " ├  ",
+            "keyColor": "31",
+        },
+        {
+            "type": "packages",
+            "format": "{} (pacman)",
+            "key": " ├ 󰏖 ",
+            "keyColor": "31",  
+        },
+        {
+            "type": "shell",
+            "key": " └  ",
+            "keyColor": "31", 
+        },
+        "break",
+        {
+            "type": "wm",
+            "key": "WM   ",
+            "keyColor": "32", 
+        },
+        {
+            "type": "wmtheme",
+            "key": " ├ 󰉼 ",
+            "keyColor": "32",
+        },
+        {
+            "type": "icons",
+            "key": " ├ 󰀻 ",
+            "keyColor": "32",
+        },
+        {
+            "type": "cursor",
+            "key": " ├  ",
+            "keyColor": "32", 
+        },
+        {
+            "type": "terminal",
+            "key": " ├  ",
+            "keyColor": "32",
+        },
+        {
+            "type": "terminalfont",
+            "key": " └  ",
+            "keyColor": "32", 
+        },
+        "break",
+        {
+            "type": "host",
+            "format": "Asus Machine",
+            "key": "PC   ",
+            "keyColor": "33",
+        },
+        {
+            "type": "cpu",
+            "format": "Intel(R) Core (TM) i5-10400 (6) @ 4.30 GHz",
+            "key": " ├  ",
+            "keyColor": "33",
+        },
+        {
+            "type": "gpu",
+            "format": "GTX 1660 @ 1.50 GHz",            
+            "key": " ├ 󰢮 ",
+            "keyColor": "33",
+        },
+        {
+            "type": "memory",
+            "key": " ├  ",
+            "keyColor": "33",
+        },
+        {
+            "type": "swap",
+            "key": " ├ 󰓡 ",
+            "keyColor": "33",
+        },
+        {
+            "type": "disk",
+            "key": " ├ 󰋊 ",
+            "keyColor": "33",
+        },
+        {
+            "type": "monitor",
+	    "format": "1920x1080 px @ 60.00 Hz",
+            "key": " └  ",
+            "keyColor": "33",
+        },
+        "break",
+        "break",
+    ]
 }
