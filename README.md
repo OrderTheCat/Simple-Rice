@@ -77,6 +77,41 @@ Adwaita defautl GNOME cursor.
   - Can be found in this github repository:
     - https://github.com/manu-mannattil/adwaita-cursors
 
+## Fonts
+
+(Iosevka Nerd Font)
+
+Arch:
+
+```bash
+sudo pacman -S ttf-iosevka-nerd
+```
+
+```bash
+fc-cache -fv
+```
+
+Debian:
+
+```bash
+wget -P ~/.local/share/fonts https://github.com/ryanoasis/nerd-fonts/releases/download/v3.0.2/Iosevka.zip && cd ~/.local/share/fonts && unzip Iosevka.zip && rm Iosevka.zip && fc-cache -fv
+```
+
+Fedora:
+
+```bash
+sudo dnf copr enable nerd-fonts/nerd-fonts
+```
+
+```bash
+sudo dnf install nerd-fonts-iosevka
+```
+
+```bash
+fc-cache -fv
+```
+
+
 I'm sure you can set the wallpapers by yourself :D
 
 
